@@ -17,5 +17,5 @@ classifiers = [
 "Documentation" = "https://pure-storage-py-pure-client.readthedocs-hosted.com/en/latest/quick_start.html"
 
 [build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
